@@ -1,8 +1,6 @@
-from xmlrpc.client import boolean
-
-
+Student_Grades = [9.1, 10.9, 16.9]
 print(dir(list))
-print(dir(str))
-print(dir(float))
-print(dir(int))
-print(dir(boolean))
+
+mysum = sum(Student_Grades) / len(Student_Grades)
+print(mysum)
+
